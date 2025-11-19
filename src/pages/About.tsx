@@ -1,3 +1,6 @@
 export default function About() {
-  return <h2>درباره ما - این صفحه lazy load شده</h2>;
+  return <h2>
+     About Us – This page is lazy loaded
+
+  </h2>;
 }
