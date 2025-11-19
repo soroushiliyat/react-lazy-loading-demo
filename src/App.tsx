@@ -8,11 +8,11 @@ function App() {
   return (
     <div>
       <nav style={{ display: 'flex', gap: '1rem' }}>
-        <Link to="/">خانه</Link>
-        <Link to="/about">درباره ما</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
       </nav>
 
-      <Suspense fallback={<p>در حال بارگذاری...</p>}>
+      <Suspense fallback={<p> Loading....... </p>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
