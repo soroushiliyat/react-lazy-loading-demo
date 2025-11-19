@@ -1,3 +1,5 @@
 export default function Home() {
-  return <h2>صفحه اصلی</h2>;
+  return <h2>
+Main Page
+  </h2>;
 }
