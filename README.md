@@ -3,6 +3,11 @@
 This is a minimal educational project built with **Vite**, **TypeScript**, and **React Router**.  
 It demonstrates how to implement **lazy loading** using `React.lazy` and `Suspense` for route-based components.
 
+##Live Demo:
+https://react-lazy-loading-demo.vercel.app/
+
+
+
 ## Features
 
 - ⚡️ Fast setup with Vite and TypeScript
